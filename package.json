@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "An out-of-box UI solution for enterprise applications",
   "private": true,
+  "engines": {
+      "node": "9.3.0"
+  },
   "scripts": {
     "precommit": "npm run lint-staged",
     "start": "cross-env DISABLE_ESLINT=true roadhog dev",
